@@ -1,0 +1,10 @@
+sensor:modalias:acpi:*KIOX000A*:dmi:*svnMicrotech*:*pn*tabPro*
+ ACCEL_MOUNT_MATRIX=-1, 0, 0; 0, 1, 0; 0, 0, 1
+
+# Goodix Touchscreen and Pen
+evdev:name:*Goodix*
+ EVDEV_ABS_00=::1200
+ EVDEV_ABS_01=::1920
+ EVDEV_ABS_35=::1200
+ EVDEV_ABS_36=::1920
+
