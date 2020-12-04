@@ -80,7 +80,7 @@ struct goodix_ts_data {
  * 6 if your screen seems to be flipped about the top-left/bottom-right diagonal
  * 7 if your screen seems to be flipped about the top-right/bottom-left diagonal
  */
-#define GOODIX_COORDINATE_CORRECTION 0
+#define GOODIX_COORDINATE_CORRECTION 1
 
 /* ...to here. (End of customizable parameters) */
 

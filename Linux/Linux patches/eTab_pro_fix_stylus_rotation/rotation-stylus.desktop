@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=stylus-rotation-bugfix
+Exec=/usr/bin/stylus-rotation-bugfix.sh
+Icon=system-run
+X-GNOME-Autostart-enabled=true
