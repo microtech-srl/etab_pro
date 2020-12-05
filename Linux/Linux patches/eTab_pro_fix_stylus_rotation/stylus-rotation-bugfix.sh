@@ -19,6 +19,7 @@ while :
 	[ $ROT == "right" ] && xinput set-prop "Goodix Active Stylus Pen Pen (0)" "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1 && echo "Rotation changed to right"
 	[ $ROT == "inverted" ] && xinput set-prop "Goodix Active Stylus Pen Pen (0)" "Coordinate Transformation Matrix" -1 0 1 0 -1 1 0 0 1 && echo "Rotation changed to inverted"
 	[ $ROT == "left" ] && xinput set-prop "Goodix Active Stylus Pen Pen (0)" "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1 && echo "Rotation changed to left"  
+	PREV_ROT="$ROT"
  done
  echo "Stopped"
  
